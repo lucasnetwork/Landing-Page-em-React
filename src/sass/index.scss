@@ -1,0 +1,57 @@
+$color:white;
+*{
+    box-sizing: content-box
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: rgb(127,63,166);
+    background: linear-gradient(90deg, rgba(127,63,166,1) 0%, rgba(94,52,136,1) 46%, rgba(122,15,157,1) 100%);
+    height:100%;
+    margin:0;
+    padding:0
+}
+html{
+    height: 100%;
+}
+#root{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    margin:10px;
+    margin-bottom: 20px;
+    width: 80%;
+    .form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:blue;
+        padding:40px;
+        input{
+            margin-bottom: 20px;
+            height:40px;
+            outline: none;
+            border:none;
+            padding-left:5px
+        }
+        button{
+            box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+            color:$color;
+            padding: 6px;
+            border:none;
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,5,81,1) 42%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+        }
+    }
+    .body{
+        font-family: Arial, Helvetica, sans-serif;
+        color:$color;
+        font-size:13px;
+    }
+}
+.header{
+    color: $color;
+    grid-column: span 2;
+    font-family: Arial, Helvetica, sans-serif
+}
