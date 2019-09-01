@@ -1,4 +1,5 @@
 $color:white;
+$color-background:linear-gradient(to bottom, #00c6ff, #0072ff);
 *{
     box-sizing: content-box
 }
@@ -6,8 +7,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    background: rgb(127,63,166);
-    background: linear-gradient(90deg, rgba(127,63,166,1) 0%, rgba(94,52,136,1) 46%, rgba(122,15,157,1) 100%);
+    background:$color-background;
     height:100%;
     margin:0;
     padding:0
@@ -26,7 +26,7 @@ html{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        background-color:blue;
+        background:rgba(0,0,0,0.7);
         padding:40px;
         input{
             margin-bottom: 20px;
@@ -40,9 +40,12 @@ html{
             color:$color;
             padding: 6px;
             border:none;
-            background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,5,81,1) 42%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+            background:$color-background
         }
+    }
+    h1{
+        color:$color;
+        font-family: Arial, Helvetica, sans-serif
     }
     .body{
         font-family: Arial, Helvetica, sans-serif;
