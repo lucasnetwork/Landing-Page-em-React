@@ -10,4 +10,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Construido com
    * [react](https://pt-br.reactjs.org/) - O site do framework usado
 ## Autores
-   * ** Lucas Ribeiro ** - *Initial work* - [LucasNetwork](https://github.com/lucasnetwork)
+   * **Lucas Ribeiro** - *Initial work* - [LucasNetwork](https://github.com/lucasnetwork)
