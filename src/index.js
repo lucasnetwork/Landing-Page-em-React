@@ -1,10 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {render} from 'react-dom'
 import App from './App'
-import './sass/index.css'
-ReactDOM.render(<App />, document.getElementById('root'))
+import './sass/index.scss'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-
+render(<App />, document.getElementById('root'))
